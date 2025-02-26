@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Image Enhancer</title>
+  <link rel="stylesheet" href="/css/style.css"> <!-- Updated path for CSS -->
+</head>
+<body>
+  <div class="container">
+    <h1>Product Image Enhancer</h1>
+
+    <!-- Image Upload Section -->
+    <div class="upload-section">
+      <input type="file" id="image-upload" accept="image/*" required>
+      <button id="upload-button">Upload Image</button>
+    </div>
+
+    <!-- Preview Uploaded Image -->
+    <div class="image-preview">
+      <h2>Uploaded Image</h2>
+      <img id="uploaded-image" src="#" alt="Uploaded Image" style="display: none;">
+    </div>
+
+    <!-- Attribute Input Fields -->
+    <div class="attribute-inputs">
+      <h2>Add Attributes</h2>
+      <input type="text" id="attribute1" placeholder="Attribute 1">
+      <input type="text" id="attribute2" placeholder="Attribute 2">
+      <input type="text" id="attribute3" placeholder="Attribute 3">
+      <button id="enhance-button">Enhance Image</button>
+  </div>
+
+    <!-- Final Image Display -->
+    <div class="image-comparison">
+      <div>
+        <h2>Original Image</h2>
+        <img id="original-image" src="#" alt="Original Image" style="display: none;">
+      </div>
+      <div>
+        <h2>Enhanced Image</h2>
+        <img id="enhanced-image" src="#" alt="Enhanced Image" style="display: none;">
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/script.js"></script> <!-- Updated path for JavaScript -->
+</body>
+</html>
